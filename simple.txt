@@ -1,0 +1,10 @@
+A I1
+A I2
+A I5
+B I2
+B I4
+
+A I1 I2 I5
+B I2 I4
+
+

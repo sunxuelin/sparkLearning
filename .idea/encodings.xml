@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/midd-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/midd-client/src/main/java/com/powersi/midd/apriori/Aprori.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/midd-client/src/main/java/com/powersi/midd/apriori/TxtReader.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/midd-client/src/main/java/com/powersi/midd/fw_growth/FPTree.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/midd-client/src/main/java/com/powersi/midd/fw_growth/TreeNode.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/midd-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/simple.txt" charset="GBK" />
+  </component>
+</project>

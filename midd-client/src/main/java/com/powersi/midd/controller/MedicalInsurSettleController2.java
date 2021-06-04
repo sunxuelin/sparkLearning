@@ -1,5 +1,6 @@
 package com.powersi.midd.controller;
 
+import com.powersi.midd.conf.SparkConfUtil;
 import org.apache.spark.SparkConf;
 import org.apache.spark.SparkContext;
 import org.apache.spark.api.java.JavaPairRDD;
@@ -26,16 +27,7 @@ public class MedicalInsurSettleController2 {
 
     public static void main(String[] args) {
 
-        System.setProperty("hadoop.home.dir", "D:/software/");
-        SparkConf conf = new SparkConf().setAppName("FP_growth" + System.currentTimeMillis())
-//                .setMaster("spark://172.18.100.135:7077")
-//                .setJars(new String[]{"midd-client/target/midd-client-0.0.1-SNAPSHOT.jar"})
-                .set("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
-                .setMaster("local[*]")
-                .set("spark.executor.heartbeatInterval", "200000")
-                .set("spark.network.timeout", "300000")
-                .set("spark.executor.memoryOverhead", "8192")
-                .set("spark.executor-memory", "8g");
+        SparkConf conf=SparkConfUtil.local();
         JavaSparkContext sc = new JavaSparkContext(conf);
 //        SparkSession sparkSession=SparkSession.builder().config(conf).getOrCreate();
         Tuple2<String, Integer> tuple21 = new Tuple2("a", 94);

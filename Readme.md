@@ -1,0 +1,1 @@
+vpn https://user.freeking.app/#/dashboard
